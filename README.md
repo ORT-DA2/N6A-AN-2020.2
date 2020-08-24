@@ -20,6 +20,10 @@
 
 * [Cuentas: GitHub](https://1drv.ms/x/s!AsRv3us8uF1Rg8JNRBvzcjCj0erZ3A?e=d13yAE)
 
+## WP
+
+* [WP Link](https://chat.whatsapp.com/CinHdVUfGvN1zNOILmPtLC)
+
 ## Aclaración
 
 :warning: El código que se encuentra está escrito en un ámbito de clase, es incompleto y seguramente con errores. **Tomar con cuidado.** :warning:
