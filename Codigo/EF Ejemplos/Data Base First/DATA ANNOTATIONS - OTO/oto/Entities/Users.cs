@@ -12,8 +12,7 @@ namespace oto.Entities
         public string UserName { get; set; }
         public int DocumentId { get; set; }
 
-        [ForeignKey(nameof(DocumentId))]
-        [InverseProperty(nameof(Documents.Users))]
-        public virtual Documents Document { get; set; }
+        [InverseProperty("User")]
+        public virtual Documents Documents { get; set; }
     }
 }

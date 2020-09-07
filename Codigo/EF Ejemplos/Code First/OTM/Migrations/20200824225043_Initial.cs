@@ -1,24 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace MTM.Migrations
+namespace OTM.Migrations
 {
-    public partial class PrimeraMigracion : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
-                name: "Documents",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Documents", x => x.Id);
-                });
-
             migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
@@ -33,25 +20,19 @@ namespace MTM.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "UserDocuments",
+                name: "Documents",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    UserId = table.Column<int>(nullable: false),
-                    DocumentId = table.Column<int>(nullable: false)
+                    Name = table.Column<string>(nullable: true),
+                    UserId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_UserDocuments", x => x.Id);
+                    table.PrimaryKey("PK_Documents", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_UserDocuments_Documents_DocumentId",
-                        column: x => x.DocumentId,
-                        principalTable: "Documents",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_UserDocuments_Users_UserId",
+                        name: "FK_Documents_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -59,13 +40,8 @@ namespace MTM.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_UserDocuments_DocumentId",
-                table: "UserDocuments",
-                column: "DocumentId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_UserDocuments_UserId",
-                table: "UserDocuments",
+                name: "IX_Documents_UserId",
+                table: "Documents",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
@@ -78,9 +54,6 @@ namespace MTM.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "UserDocuments");
-
             migrationBuilder.DropTable(
                 name: "Documents");
 

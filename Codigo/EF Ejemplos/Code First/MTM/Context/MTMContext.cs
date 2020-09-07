@@ -25,7 +25,7 @@ namespace MTM.Context
             documentModel.HasKey(x => x.Id);
             // MTM
             var mtmModel = modelBuilder.Entity<UserDocument>();
-            mtmModel.HasKey(x => x.Id);
+            mtmModel.HasKey(x => new { x.UserId, x.DocumentId });
             mtmModel.HasOne(x => x.User)
                 .WithMany(x => x.UserDocuments)
                 .HasForeignKey(x => x.UserId);

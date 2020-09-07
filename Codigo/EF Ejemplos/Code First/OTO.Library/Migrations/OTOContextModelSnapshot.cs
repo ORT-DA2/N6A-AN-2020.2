@@ -33,6 +33,9 @@ namespace OTO.Library.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
                     b.ToTable("Documents");
                 });
 
@@ -51,9 +54,6 @@ namespace OTO.Library.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DocumentId")
-                        .IsUnique();
-
                     b.HasIndex("UserName")
                         .IsUnique()
                         .HasFilter("[UserName] IS NOT NULL");
@@ -61,11 +61,11 @@ namespace OTO.Library.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("OTO.Library.Entities.User", b =>
+            modelBuilder.Entity("OTO.Library.Entities.Document", b =>
                 {
-                    b.HasOne("OTO.Library.Entities.Document", "Document")
-                        .WithOne("User")
-                        .HasForeignKey("OTO.Library.Entities.User", "DocumentId")
+                    b.HasOne("OTO.Library.Entities.User", "User")
+                        .WithOne("Document")
+                        .HasForeignKey("OTO.Library.Entities.Document", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

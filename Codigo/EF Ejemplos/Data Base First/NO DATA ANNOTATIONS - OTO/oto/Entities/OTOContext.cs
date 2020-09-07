@@ -29,18 +29,21 @@ namespace oto.Entities
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Users>(entity =>
+            modelBuilder.Entity<Documents>(entity =>
             {
-                entity.HasIndex(e => e.DocumentId)
+                entity.HasIndex(e => e.UserId)
                     .IsUnique();
 
+                entity.HasOne(d => d.User)
+                    .WithOne(p => p.Documents)
+                    .HasForeignKey<Documents>(d => d.UserId);
+            });
+
+            modelBuilder.Entity<Users>(entity =>
+            {
                 entity.HasIndex(e => e.UserName)
                     .IsUnique()
                     .HasFilter("([UserName] IS NOT NULL)");
-
-                entity.HasOne(d => d.Document)
-                    .WithOne(p => p.Users)
-                    .HasForeignKey<Users>(d => d.DocumentId);
             });
 
             OnModelCreatingPartial(modelBuilder);

@@ -9,6 +9,6 @@ namespace oto.Entities
         public string Name { get; set; }
         public int UserId { get; set; }
 
-        public virtual Users Users { get; set; }
+        public virtual Users User { get; set; }
     }
 }

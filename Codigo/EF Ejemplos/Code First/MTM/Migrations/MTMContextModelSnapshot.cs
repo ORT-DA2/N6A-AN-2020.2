@@ -54,22 +54,15 @@ namespace MTM.Migrations
 
             modelBuilder.Entity("MTM.Entities.UserDocument", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
 
                     b.Property<int>("DocumentId")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
+                    b.HasKey("UserId", "DocumentId");
 
                     b.HasIndex("DocumentId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("UserDocuments");
                 });

@@ -23,10 +23,10 @@ namespace OTO.Library.Context
             var documentModel = modelBuilder.Entity<Document>();
             documentModel.HasKey(x => x.Id);
 
-            documentModel
-                .HasOne(x => x.User)
-                .WithOne(x => x.Document)
-                .HasForeignKey<User>(x => x.DocumentId);
+            userModel
+                .HasOne(x => x.Document)
+                .WithOne(x => x.User)
+                .HasForeignKey<Document>(x => x.UserId);
             base.OnModelCreating(modelBuilder);
         }
     }
