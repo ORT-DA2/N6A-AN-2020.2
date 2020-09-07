@@ -13,7 +13,7 @@
 
 * [Clase 3 - Aplicación Base](/Clases/Clase%202%20-%20Aplicacion.md) / [Código WebApi](/Codigo/Backend) 
 * [Clase 3 - Inyección de Dependencias](/Clases/Clase%203%20-%20InyeccionDependencias.md)
-* [Clase 3 - EF Core](/Clases/Clase%202%20-%20EntityFrameworkCore.md)
+* [Clase 3 - EF Core](/Clases/Clase%203%20-%20EntityFrameworkCore.md)
 
 ## Links de Interés
 
