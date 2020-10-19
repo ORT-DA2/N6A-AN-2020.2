@@ -36,16 +36,6 @@ export class HomeworksListComponent implements OnInit {
   onRatingClicked(message:string):void {
     this.pageTitle = 'HomeworksList ' + message;
   }
-
-  solicitudABUsacar:string;
-
-  onrEQUESTsOLICITUD(){
-    this._serviceHomeworks.getSolicitud(solicitudABUsacar).subscribe(
-      ((data : Solicitud) => this.resultSolicitud(data)),
-      ((error : any) => console.log(error))
-  );
-  }
-
   
 }
 
