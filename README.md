@@ -24,9 +24,9 @@
 
 * [Clase 7 - Angular y las SPA](/Clases/Clase7_Angular_y_las_SPAs.md)
 * [Clase 8 - Componentes, Templates, Bootstrapping, Directivas, Data Binding y Pipes](/Clases/Clase8_Componentes_Templates_Bootstrapping_Directivas_Data_Binding_y_Pipes.md)
-* [Clase 9 - Reflection](/Clases/Clase9_Custom_Pipes_y_Service_Basico.md)
-* [Clase 10 - Reflection](/Clases/Clase10_Conceptos_avanzados.md)
-* [Clase 10 - Reflection](/Clases/Clase10_Http_y_Observables_y_Mas_sobre_Routing.md)
+* [Clase 9 - Custom Pipes y Service Basico](/Clases/Clase9_Custom_Pipes_y_Service_Basico.md)
+* [Clase 10 - Conceptos avanzados](/Clases/Clase10_Conceptos_avanzados.md)
+* [Clase 10 - Http y Observables y Más sobre Routing](/Clases/Clase10_Http_y_Observables_y_Mas_sobre_Routing.md)
 
 ## Links de Interés
 
