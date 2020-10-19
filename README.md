@@ -15,6 +15,7 @@
 * [Clase 4 - Testing](/Clases/Clase4.1_Testing.md)
 * [Clase 4 - Mocking](/Clases/Clase4.2_Mocking.md)
 * Clase 4 - Prueba 1 - (21/09)  - .NET Core, Web API, Entity Framework Core, Iny. de dependencias.
+* Clase 5 - Feriado
 * [Clase 6 - Filters](/Clases/Clase5_Filters.md)
 * Clase 6 - Prueba 2 - (05/10) - Testing, Mocking
 * [Clase 7 - Reflection](/Clases/Clase6_Reflection.md)
