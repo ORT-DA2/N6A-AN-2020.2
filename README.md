@@ -8,9 +8,7 @@
 
 * [Clase 1 - .NET Core](/Clases/Clase%201%20-%20NET%20Core.md)
 * [Clase 1 - Comandos Básicos](/Clases/Clase%201%20-%20Creacion.md)
-
 * [Clase 2 - WebApi](Clases/Clase%202%20-%20WebApi.md)
-
 * [Clase 3 - Aplicación Base](/Clases/Clase%202%20-%20Aplicacion.md) / [Código WebApi](/Codigo/Backend) 
 * [Clase 3 - Inyección de Dependencias](/Clases/Clase%203%20-%20InyeccionDependencias.md)
 * [Clase 3 - EF Core](/Clases/Clase%203%20-%20EntityFrameworkCore.md)
@@ -22,7 +20,7 @@
 
 ## 2) Angular
 
-* [Clase 7 - Angular y las SPA](/Clases/Clase7_Angular_y_las_SPAs.md)
+* [Clase 7 - Angular y las SPA](/Clases/Clase7_Angular_y_las_SPAs.md) / [Código Angular](/Codigo/Frontend) 
 * [Clase 8 - Componentes, Templates, Bootstrapping, Directivas, Data Binding y Pipes](/Clases/Clase8_Componentes_Templates_Bootstrapping_Directivas_Data_Binding_y_Pipes.md)
 * [Clase 9 - Custom Pipes y Service Basico](/Clases/Clase9_Custom_Pipes_y_Service_Basico.md)
 * [Clase 10 - Conceptos avanzados](/Clases/Clase10_Conceptos_avanzados.md)
