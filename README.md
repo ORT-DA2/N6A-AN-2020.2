@@ -26,7 +26,7 @@
 * [Clase 10 - Custom Pipes y Service Basico](/Clases/Clase9_Custom_Pipes_y_Service_Basico.md)
 * [Clase 11 - Conceptos avanzados](/Clases/Clase10_Conceptos_avanzados.md)
 * [Clase 11 - Http y Observables y Más sobre Routing](/Clases/Clase10_Http_y_Observables_y_Mas_sobre_Routing.md)
-* Clase 12 - (09/11) - Angular y Reflection
+* Clase 12 - Prueba 3 - (09/11) - Angular y Reflection
 
 ## Links de Interés
 
