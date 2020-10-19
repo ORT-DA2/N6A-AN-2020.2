@@ -1,8 +1,9 @@
 # Clases
 
-# Link Clases
-
 * [Teams](https://teams.microsoft.com/l/meetup-join/19%3a8f588233822a451f9b2d24d3015bf562%40thread.tacv2/1598130592172?context=%7b%22Tid%22%3a%22d79720cd-d8c0-4d0c-a404-2dcd025f01e3%22%2c%22Oid%22%3a%22718b0313-ea53-4221-bac2-985bf0ae77f5%22%7d)
+* [Foro de Tecnologia](https://aulas.ort.edu.uy/mod/forum/view.php?id=231726)
+* [Whatsapp Link](https://chat.whatsapp.com/CinHdVUfGvN1zNOILmPtLC)
+* [GitHub: Cuentas](https://1drv.ms/x/s!AsRv3us8uF1Rg8JNRBvzcjCj0erZ3A?e=d13yAE)
 
 ## 1) .NET Core WebApi
 
@@ -33,14 +34,6 @@
 
 * [EF Core - Lazy Loading](https://www.learnentityframeworkcore.com/lazy-loading)
 * [EF Core - Relaciones: Many To Many](https://www.learnentityframeworkcore.com/configuration/many-to-many-relationship-configuration)
-
-## Excel GitHub
-
-* [Cuentas: GitHub](https://1drv.ms/x/s!AsRv3us8uF1Rg8JNRBvzcjCj0erZ3A?e=d13yAE)
-
-## Whatsapp Link
-
-* [WP Link](https://chat.whatsapp.com/CinHdVUfGvN1zNOILmPtLC)
 
 ## Aclaración
 
