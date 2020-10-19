@@ -14,9 +14,9 @@
 * [Clase 3 - EF Core](/Clases/Clase%203%20-%20EntityFrameworkCore.md)
 * [Clase 4 - Testing](/Clases/Clase4.1_Testing.md)
 * [Clase 4 - Mocking](/Clases/Clase4.2_Mocking.md)
-* Clase 4 - Prueba 1 - 21/09  - .NET Core, Web API, Entity Framework Core, Iny. de dependencias.
+* Clase 4 - Prueba 1 - (21/09)  - .NET Core, Web API, Entity Framework Core, Iny. de dependencias.
 * [Clase 6 - Filters](/Clases/Clase5_Filters.md)
-* Clase 6 - Prueba 2 - 05/10 - Testing, Mocking
+* Clase 6 - Prueba 2 - (05/10) - Testing, Mocking
 * [Clase 7 - Reflection](/Clases/Clase6_Reflection.md)
 
 ## 2) Angular
@@ -26,7 +26,7 @@
 * [Clase 10 - Custom Pipes y Service Basico](/Clases/Clase9_Custom_Pipes_y_Service_Basico.md)
 * [Clase 11 - Conceptos avanzados](/Clases/Clase10_Conceptos_avanzados.md)
 * [Clase 11 - Http y Observables y Más sobre Routing](/Clases/Clase10_Http_y_Observables_y_Mas_sobre_Routing.md)
-* Clase 12 - 09/11 - Angular y Reflection
+* Clase 12 - (09/11) - Angular y Reflection
 
 ## Links de Interés
 
