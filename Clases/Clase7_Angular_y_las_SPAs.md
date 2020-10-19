@@ -36,7 +36,7 @@ Las *SPAs*, si bien siguen manteniendo la misma forma de interactuar **cliente-s
 
 **El documento HTML inicial nunca se recarga**, y el usuario puede seguir intercalando con el html existente mientras las requests ajax terminan de ejecutarse asincrónicamente.
 
-![imagen](../Imagenes/angular-clase1/spa_rta_3.png)
+![imagen](../imgs/angular-clase1/spa_rta_3.png)
 
 Particularmente veremos un framework que está 100% orientado a la construcción de SPAs: **Angular**.
 
@@ -54,7 +54,7 @@ El mismo logra logra sus mejores resultados cuando la aplicación a desarrollar 
 
 ## ¿Qué es Angular?
 
-![imagen](../Imagenes/angular-clase1/angular%20logo.png)
+![imagen](../imgs/angular-clase1/angular%20logo.png)
 
 ### Lectura Previa: ¿Por qué Angular?
 
@@ -94,19 +94,19 @@ La versión del framework que usaremos es comunmente llamada como "Angular 2", o
 
 También podemos realizar una comparativa a más detallada:
 
-![imagen](../Imagenes/angular-clase1/angular1_vs_angular2.jpg)
+![imagen](../imgs/angular-clase1/angular1_vs_angular2.jpg)
 
 De aquí en adelante, siempre que hablemos de *Angular*, nos estaremos refiriendo a *Angular 2*.
 
 ## Arquitectura de una aplicación Angular
 
-![imagen](../Imagenes/angular-clase1/angular_architecture.png)
+![imagen](../imgs/angular-clase1/angular_architecture.png)
 
 En **Angular**, una aplicación **se define a partir de un conjunto de componentes**, del mismo modo que también de servicios subyacentes que son comunes a ellos  y permiten el reuso de la lógica. Por ejemplo: servicios para contectarse con APIs REST, servicios que manejen la sesión desde el lado del cliente, servicios de autenticación, etc.
 
 ### Pero… ¿Qué es un componente en Angular?
 
-![imagen](../Imagenes/angular-clase1/angular_components.png)
+![imagen](../imgs/angular-clase1/angular_components.png)
 
 Un componente es una una unidad modularizada que define la vista y la lógica para controlar una porción de una pantalla en Angular. Cada componente se compone de:
 
@@ -118,7 +118,7 @@ Un componente es una una unidad modularizada que define la vista y la lógica pa
 
 ### ¿Y cómo hacemos que todos estos componentes se integren en una app en Angular? - Modules
 
-![imagen](../Imagenes/angular-clase1/angular_modules_features.png)
+![imagen](../imgs/angular-clase1/angular_modules_features.png)
 
 Esto lo logramos a partir de lo que se llaman, **Angular Modules**. Estos nos permiten organizar nuestros componentes en funcionalidad cohesiva. Cada app angular tiene por lo menos un Angular Module, llamado el **Root Angular Module**.
 
@@ -134,7 +134,7 @@ Son simplemente funciones que van a modificar nuestras clases de JavaScript. Ang
 
 ## Eligiendo un lenguaje para nuestras apps en Angular
 
-![imagen](../Imagenes/angular-clase1/angular_ecmascript_es6.png)
+![imagen](../imgs/angular-clase1/angular_ecmascript_es6.png)
 
 ### ECMAScript como una especificación de JS
 
@@ -142,7 +142,7 @@ JavaScript como lenguaje de programación, posee una especificación que define 
 
 Las diferentes versiones que van saliendo, se van versionando con un número, y evidentemente cada una tiene diferente soporte en los browsers. Por ejemplo: ES3 es soportado por los browsers viejos, ES5 es actualmente la especificación que soportan todos los browsers nuevos.
 
-![imagen](../Imagenes/angular-clase1/angular_ecmascript_releases.jpg)
+![imagen](../imgs/angular-clase1/angular_ecmascript_releases.jpg)
 
 Cuando queremos construir una Angular App, tenemos varias opciones de lenguajes que se adecuan con la especificación de JavaScript, y la idea aquí es ver cuál de ellas pueda resultarnos más útil.
 
@@ -166,7 +166,7 @@ Como Angular es una librería de JavaScript, podemos usar uno de los tantos leng
 * ES2015 (también llamado ES6)
 * TypeScript
 
-![imagen](../Imagenes/angular-clase1/es_especifications.png)
+![imagen](../imgs/angular-clase1/es_especifications.png)
 
 Particularmente, eligiremos **TypeScript**. Este este es un superset de JavaScript y debe ser transpilado. Uno de los beneficios más importantes de TypeScript (o simplemente TS), es que es fuertemente tipado, significando que todo tiene un tipo de datos asociado (una variable, una función, un argumento, etc).
 
@@ -234,9 +234,9 @@ También vemos que el TypeScript compiler y el FileServer que levantamos, “wat
 Ejemplo:
 
 * 1  Cambio el Componente de APP
-![imagen](../Imagenes/angular-clase1/angular_project_update_1.png)
+![imagen](../imgs/angular-clase1/angular_project_update_1.png)
 * 2  Guardo y veo como el watcher se activa
-![imagen](../Imagenes/angular-clase1/angular_project_update_2.png)
+![imagen](../imgs/angular-clase1/angular_project_update_2.png)
 * 3 Instantáneamente mis cambios en la vista se reflejan en el navegador
 
 ### 4) El punto de entrada de nuestra aplicación: index.html
@@ -247,13 +247,13 @@ El proceso es similar a cómo describimos al principio:
 
 Se realiza una request del navegador al web Server:
 
-![imagen](../Imagenes/angular-clase1/angular_request_1.png)
+![imagen](../imgs/angular-clase1/angular_request_1.png)
 
-![imagen](../Imagenes/angular-clase1/angular_request_2.png)
+![imagen](../imgs/angular-clase1/angular_request_2.png)
 
 Y este le contesta:
 
-![imagen](../Imagenes/angular-clase1/angular_request_3.png)
+![imagen](../imgs/angular-clase1/angular_request_3.png)
 
 #### ¿Qué contiene?
 

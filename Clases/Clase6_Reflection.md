@@ -182,7 +182,7 @@ La idea de la separación de responsabilidades es similar al Ejemplo 1 anterior.
 
 Puede revisar el [Código](https://github.com/ORT-DA2/TECNOLOGIA-2020.1/tree/master/Codigo/Clase6/Reflection)
 
-`Tenga presente que las rutas en UNIX (Linux, macOS) se representan diferentes a Windows.` 
+`Tenga presente que las rutas en UNIX (Linux, macOS) se representan diferentes a Windows.` 
 
 Se sugiere revisar los métodos:
 
