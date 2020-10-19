@@ -35,7 +35,7 @@
 
 * [Cuentas: GitHub](https://1drv.ms/x/s!AsRv3us8uF1Rg8JNRBvzcjCj0erZ3A?e=d13yAE)
 
-## WP
+## Whatsapp Link
 
 * [WP Link](https://chat.whatsapp.com/CinHdVUfGvN1zNOILmPtLC)
 
