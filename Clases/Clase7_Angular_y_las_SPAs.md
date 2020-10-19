@@ -17,7 +17,7 @@ En el pasado, el flujo que exista en una aplicación web era algo así:
 En el momento en el que obteníamos la página, nuestro **Browser/Explorador** tenía la lógica para mostrarla (renderizarla), y, en cada interacción/clic/evento subsiguiente que nosotros dispararamos sobre dicho html,
 el browser se encargaba de ir a pedir un nuevo .html al Web Server para mostrar el contenido asociado al mismo.
 
-![imagen](../Imagenes/angular-clase1/request.png)
+![imagen](../imgs/angular-clase1/request.png)
 
 Este tipo de aplicaciones son conocidas como **Round-Trip Applications** (o **RTAs**).
 

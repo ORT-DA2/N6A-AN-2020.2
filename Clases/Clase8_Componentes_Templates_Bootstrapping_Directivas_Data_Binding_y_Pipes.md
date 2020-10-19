@@ -8,7 +8,7 @@ Cada componente la idea es que funcione armoniosamente y en conjunto con el rest
 
 Por ejemplo, una excelente forma de pensar los componentes es a través de la siguiente imagen:
 
-![imagen](../Imagenes/angular-clase2/angular-components-sample-2.png)
+![imagen](../imgs/angular-clase2/angular-components-sample-2.png)
 
 A su vez, es interesante recordar cómo se comporta internamente cada componente. Como habíamos dicho, los componentes se componen de tres cosas:
 
@@ -18,7 +18,7 @@ A su vez, es interesante recordar cómo se comporta internamente cada componente
 
 3) **Metadata:** Finalmente, el componente también tiene **metadata**, que es información adicional para Angular, siendo esta definida con un *decorator* (los que arrancan con **@**). Un decorador es una función que agrega metadata a una clase, sus miembros o los argumentos de sus métodos.
 
-![imagen](../Imagenes/angular-clase2/angular_component_architecture.png)
+![imagen](../imgs/angular-clase2/angular_component_architecture.png)
 
 ### La clase de un componente:
 
@@ -99,7 +99,7 @@ Especifica el nombre de la directiva que vamos a usar con el componente. Es simp
 
 4) **providers**: es un array de objeto de los providers de los servicios que el componente requiere para operar. Estos se inyectan a partir de inyección de dependencias; es simplemente una forma de decirle a Angular que el constructor del componente requiere algúns servicio para funcionar. Ejemplo:
 
-![imagen](../Imagenes/angular-clase2/angular-component-code-sample.png)
+![imagen](../imgs/angular-clase2/angular-component-code-sample.png)
 
 ## Importando o exportando módulos y componentes
 
@@ -107,11 +107,11 @@ Antes de usar una función o clase externa, tenemos que decirle al module de dó
 
 En consecuencia, nos permite usar todos los miembros que hayan sido exportados por algún ES Module (sea una librería de terceros, nuestros propios ES modules o modelos propios de Angular).
 
-![imagen](../Imagenes/angular-clase2/import-sample.png)
+![imagen](../imgs/angular-clase2/import-sample.png)
 
 Esto se debe a que angular es modular, define una colección de módulos que engloban funcionalidad. Cuando precisemos algo de angular lo tomaremos de un angular module.
 
-![imagen](../Imagenes/angular-clase2/angular-is-modular.png)
+![imagen](../imgs/angular-clase2/angular-is-modular.png)
 
 Para ver todos los módulos disponibles de angular:
 
@@ -210,7 +210,7 @@ De manera que cuando el HTML se renderiza, el HTML muestra el valor asociado al 
 
 El Data Binding va de la mano del concepto de **interpolación**, la cual es la habilidad de poner datos dentro de un HTML (interpolar). Esto es lo que logramos con las llaves dobles ``` {{ ... }} ```.
 
-![imagen](../Imagenes/angular-clase2/angular_data_binding.png)
+![imagen](../imgs/angular-clase2/angular_data_binding.png)
 
 La interpolación no es el único tipo de Data Binding, también hay otros:
 
@@ -220,7 +220,7 @@ La interpolación no es el único tipo de Data Binding, también hay otros:
 
 - **Two-Way Binding**: Es un idea y vuelta entre el template y una property entre un component. Muestra el valor de la property en la vista, y si en la vista/template dicho valor cambia, la property también se ve reflejada (por eso es de dos caminos). Esto lo veremos  con ms detalle en el tutorial de más abajo.
 
-![imagen](../Imagenes/angular-clase2/binding-types.png)
+![imagen](../imgs/angular-clase2/binding-types.png)
 
 ## Directivas
 
@@ -292,7 +292,7 @@ Este commando nos agrega el componente automaticamnte al ```app.module.ts``` den
 ### 3. Agregamos el html.
 Agregamos en nuestro archivo de vista (```homeworks-list.component.html```) nuestro template basico.
 
-![imagen](../Imagenes/angular-clase2/templates-types.png)
+![imagen](../imgs/angular-clase2/templates-types.png)
 
 Particularmente utilizaremos la propiedad ```templateUrl``` luego en nuestro componente:
 ```html
@@ -432,7 +432,7 @@ Ahora lo que queremos es ver poner contenido dinámico en nuestro componente. Pa
 
 La sintaxis del binding siempre se define en el template, a partir de lo que ya sabemos que se llama **interpolación**
 
-![imagen](../Imagenes/angular-clase2/interpolacion-ejemplo.png)
+![imagen](../imgs/angular-clase2/interpolacion-ejemplo.png)
 
 La interpolación soporta mucho más que el mostrado properties simples, también permite realizar operaciones complejas o cálculos, o llamar métodos!
 
@@ -593,7 +593,7 @@ Nos faltaría ver cómo agregar la condición de filtro al for (esto lo haremos 
 
 Esto que hicimos se llama **Two-Way Binding**.
 
-![imagen](../Imagenes/angular-clase2/two%20way%20data%20binding%20in%20angular%202.png)
+![imagen](../imgs/angular-clase2/two%20way%20data%20binding%20in%20angular%202.png)
 
 Two-Way Binding es simplemente un mecanismo a partir del cual podemos establecer un enlace entre nuestros datos (properties), y una expresión en un template; de manera que cada vez que desde la UI se modifique dicho valor, el valor de la property cambia, y viceversa.
 
@@ -603,7 +603,7 @@ Cuando los datos no están en el formato apropiado que queremos para mostrarlos,
 Los pipes en general se denotan con el caracter ```|``` (pipe), expresión.
 Por ahora, nos quedamos con pipes simples, como los de la imagen:
 
-![imagen](../Imagenes/angular-clase2/pipes-sample.png)
+![imagen](../imgs/angular-clase2/pipes-sample.png)
 
 Para ello, simplemente cambiamos:
 ```html
